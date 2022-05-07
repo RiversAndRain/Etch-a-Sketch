@@ -1,0 +1,17 @@
+#container {
+   
+}
+
+.containerGrid {
+   display: grid;
+   grid-template-columns: repeat(16, 1fr);
+   gap: 1px;
+}
+
+.grid {
+   height: auto;
+   width: auto;
+   border: 1px solid black;
+   aspect-ratio: 1;
+}
+
